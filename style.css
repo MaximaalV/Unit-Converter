@@ -51,55 +51,9 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--color-black);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
-.container {
-    border: 1px solid red;
-    min-height: 729px;
-    max-width: 550px;
-    border-radius: 10px;
-    background-color: grey;
-}
-
-.main__section {
-    background-color: var(--color-purple);
-    border-radius: 10px 10px 0 0;
-}
-
-.nav__btn {
-    height: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 10px;
-}
-
-.nav__btn i {
-    color: var(--color-white);
-    padding-top: 15px;
-    font-size: var(--h2-font-size);
-}
-
-.nav__btn a {
-    color: var(--color-white);
-    padding-top: 15px;
-    transition: all .2s ease-in-out;
-}
-
-.nav__btn a:hover {
-    color: var(--color-black);
-}
-
-h1 {
-    font-size: var(--h1-font-size);
-    font-family: 'PT Mono', sans-serif;
-    text-transform: uppercase;
-    padding: 7.5rem;
-}
 
 
 
