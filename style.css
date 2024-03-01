@@ -50,10 +50,34 @@ img {
 body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--color-black);
-
+    background-color: var(--color-white);
+    text-align: center;
 }
 
+.hero {
+    background: var(--color-purple);
+    color: var(--color-white);
+    padding: 30px;
+}
 
+.main {
+    background: var(--color-grey);
+    padding: 10px;
+}
 
+.section1 {
+    background: var(--color-white);
+    padding: 5px;
+    margin-bottom: 10px;
+}
 
+.section2 {
+    background: var(--color-white);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.section3 {
+    background: var(--color-white);
+    padding: 5px;
+}
