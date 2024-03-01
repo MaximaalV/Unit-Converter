@@ -50,6 +50,15 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid red;
+    min-height: 729px;
+    max-width: 550px;
 }
 
 
