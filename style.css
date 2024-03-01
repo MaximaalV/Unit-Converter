@@ -59,6 +59,30 @@ body {
     border: 1px solid red;
     min-height: 729px;
     max-width: 550px;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.main__section {
+    background-color: var(--color-purple);
+}
+
+.nav__btn {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__btn a {
+    color: var(--color-white);
+    padding: 5px 5px;
+    transition: all .2s ease-in-out;
+}
+
+.nav__btn a:hover {
+    color: var(--color-black);
 }
 
 
