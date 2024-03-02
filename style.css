@@ -116,6 +116,7 @@ body {
     cursor: pointer;
 }
 
+/* main styling */
 .main {
     background: var(--color-grey);
     padding: 10px;
@@ -125,15 +126,28 @@ body {
     background: var(--color-white);
     padding: 5px;
     margin-bottom: 10px;
+    border-radius: .5rem;
 }
+
 
 .section2 {
     background: var(--color-white);
     padding: 5px;
     margin-bottom: 10px;
+    border-radius: .5rem;
 }
 
 .section3 {
     background: var(--color-white);
     padding: 5px;
+    border-radius: .5rem;
+}
+
+.section1 h3,
+.section2 h3,
+.section3 h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-regular);
+    letter-spacing: 2px;
 }
