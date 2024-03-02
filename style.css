@@ -4,6 +4,7 @@
     --color-black: #000000;
     --color-white: #FFFF;
     --color-grey: #F4F4F4;
+    --color-grey-dark: #3D3D3D;
     --color-blue: #273549;
     --color-blue-dark: #1F2937;
     --color-purple: #6943FF;
@@ -92,9 +93,27 @@ body {
     max-width: 10rem;
     text-align: center;
     border-radius: .5rem;
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: var(--color-purple);
     color: var(--color-white);
+    margin-bottom: 1.5rem;
+}
+
+.hero input::placeholder {
+    color: var(--color-white);
+    opacity: 1;
+}
+
+.hero button {
+    color: var(--color-grey-dark);
+    background-color: var(--color-white);
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    font-family: 'PT Mono', sans-serif;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+    cursor: pointer;
 }
 
 .main {
